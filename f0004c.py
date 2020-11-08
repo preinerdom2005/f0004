@@ -1,0 +1,5 @@
+szám1=input('mi legyen az első szám?')
+szám2=input('mi legyen a második szám?')
+szám1=int(szám1)
+szám2=int(szám2)
+print('az eredmény:',szám1*szám2)

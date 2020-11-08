@@ -1,0 +1,9 @@
+név = input('Hogy híjják kendet? ')
+kor = input('És hány éves kend? ') 
+kor = int(kor)
+évszám=input('milyen évet irunk?')
+év=int(évszám)
+születési_év = év - kor
+print(név, ' kend ', születési_év, '-ban született.', sep='')
+éretségi_év=születési_év+18
+print(név,',kend',éretségi_év,'éretségizik.', sep='')
